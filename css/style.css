@@ -1,61 +1,57 @@
-header {
+body header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
 }
-header .carritoVentas {
+body header .carritoVentas {
   width: 30px;
   cursor: pointer;
 }
-header .btnBuscar {
+body header .btnBuscar {
   border-color: black;
   color: black;
   background-color: white;
   text-transform: uppercase;
 }
-header .btnIniciarSesion {
+body header .btnIniciarSesion {
   border-color: black;
   color: black;
   background-color: white;
   text-transform: uppercase;
 }
-header .iniciarSesion {
+body header .iniciarSesion {
   display: inline-block;
   padding: 8px 16px;
   border: 3px black solid;
   border-radius: 0px;
   background-color: white;
 }
-header a {
+body header a {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
 }
-header .logo {
+body header .logo {
   width: 180px;
   cursor: pointer;
   margin-top: 10px;
   margin-left: 10px;
 }
-
-.btnBuscar:hover {
+body header .btnBuscar:hover {
   background-color: black;
 }
-
-.btnIniciarSesion:hover {
+body header .btnIniciarSesion:hover {
   background-color: black;
 }
-
-.menuNav {
+body .menuNav {
   padding: 8px 16px;
   background-color: white;
   text-align: center;
   margin-top: 50px;
   text-transform: uppercase;
 }
-
-.productos {
+body .productos {
   background-color: black;
   color: white;
   text-align: center;
@@ -65,22 +61,26 @@ header .logo {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.productos .productos h2 {
+body .productos .productos h2 {
   font-size: 3rem;
 }
-.productos .contenedorProductos {
+body .contenedorProductos {
   justify-content: center;
 }
-.productos .card {
+body .contenedorProductos .card {
   border: none;
 }
-.productos .btnProductos {
+body .contenedorProductos .btnProductos {
   border-color: black;
   color: black;
   background-color: white;
   text-transform: uppercase;
 }
-.productos .btnProd {
+body .contenedorProductos .btnProductos:hover {
+  background-color: black;
+  color: white;
+}
+body .btnProd {
   border-color: black;
   color: black;
   background-color: white;
@@ -91,34 +91,27 @@ header .logo {
   margin-top: 10px;
   margin-bottom: 50px;
 }
-
-.btnProductos:hover {
+body .btnProd:hover {
   background-color: black;
   color: white;
 }
-
-.btnProd:hover {
-  background-color: black;
-  color: white;
-}
-
-.finalHeader {
+body .finalHeader {
   border-top: 3px black solid;
   text-align: center;
   padding: 10px 20px;
   margin-top: 30px;
 }
-.finalHeader .textoSociales {
+body .finalHeader .textoSociales {
   font-size: 60px;
   margin-bottom: 5px;
 }
-.finalHeader .textoInstagram {
+body .finalHeader .textoInstagram {
   font-size: 50px;
   display: inline-block;
   margin-top: 0px;
   margin-left: 10px;
 }
-.finalHeader .instagram {
+body .finalHeader .instagram {
   width: 80px;
   cursor: pointer;
   display: flex;
@@ -126,8 +119,7 @@ header .logo {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
-.formulario {
+body .formulario {
   display: flex;
   border: 3px solid black;
   border-radius: 0px;
@@ -139,7 +131,7 @@ header .logo {
   justify-content: center;
   align-content: center;
 }
-.formulario .btnEnviar {
+body .formulario .btnEnviar {
   border-color: black;
   color: black;
   background-color: white;
@@ -147,7 +139,7 @@ header .logo {
   margin-bottom: 5px;
   margin-left: 5px;
 }
-.formulario .btnBorrar {
+body .formulario .btnBorrar {
   border-color: black;
   color: black;
   background-color: white;
@@ -155,17 +147,53 @@ header .logo {
   margin-bottom: 5px;
   margin-left: 5px;
 }
-.formulario .nombre {
+body .formulario .nombre {
   margin-top: 5px;
   margin-left: 5px;
 }
-
-.btnEnviar:hover {
+body .formulario .btnEnviar:hover {
   background-color: black;
   color: white;
 }
-
-.btnBorrar:hover {
+body .formulario .btnBorrar:hover {
+  background-color: black;
+  color: white;
+}
+body footer .gridPadre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5px 5px 5px;
+  row-gap: 35px;
+  column-gap: 10px;
+  width: 80px;
+}
+body footer .gridPadre .tarjetas {
+  width: 30px;
+  height: 30px;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+body footer .titulo {
+  text-transform: uppercase;
+}
+body footer .email {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+body footer .ubicacion {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+body footer .btnSubs {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+body footer .btnSubs:hover {
   background-color: black;
   color: white;
 }

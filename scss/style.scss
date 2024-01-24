@@ -1,6 +1,6 @@
-//Encabezado
+body {
 
-header {
+    header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -45,17 +45,15 @@ header {
         margin-top: 10px;
         margin-left: 10px;
     }
-}
 
-.btnBuscar:hover {
-    background-color: black;
+    .btnBuscar:hover {
+        background-color: black;
+    }
+    
+    .btnIniciarSesion:hover {
+        background-color: black;
+    }
 }
-
-.btnIniciarSesion:hover {
-    background-color: black;
-}
-
-//Menú de navegación
 
 .menuNav {
     padding: 8px 16px;
@@ -64,8 +62,6 @@ header {
     margin-top: 50px;
     text-transform: uppercase;
 }
-
-//Cards de productos
 
 .productos {
     background-color: black;
@@ -80,10 +76,10 @@ header {
     .productos h2 {
         font-size: 3rem;
     }
-    
-    .contenedorProductos {
-        justify-content: center;
-    }
+}
+
+.contenedorProductos {
+    justify-content: center;
     
     .card {
         border: none;
@@ -95,31 +91,30 @@ header {
         background-color: white;
         text-transform: uppercase;
     }
-
-    .btnProd {
-        border-color: black;
-        color: black;
-        background-color: white;
-        text-transform: uppercase;
-        text-align: center;
-        margin-left: 500px;
-        margin-right: 350px;
-        margin-top: 10px;
-        margin-bottom: 50px;
+    
+    .btnProductos:hover {
+        background-color: black;
+        color: white;
     }
+    
 }
 
-.btnProductos:hover {
-    background-color: black;
-    color: white;
+.btnProd {
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .btnProd:hover {
     background-color: black;
     color: white;
 }
-
-//Redes sociales
 
 .finalHeader {
     border-top: 3px black solid;
@@ -148,8 +143,6 @@ header {
         margin-bottom: 15px;
     }
 }
-
-//Formulario de contacto
 
 .formulario {
     display: flex;
@@ -185,14 +178,65 @@ header {
         margin-top: 5px;
         margin-left: 5px;
     }
+
+    .btnEnviar:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .btnBorrar:hover {
+        background-color: black;
+        color: white;
+    }
 }
 
-.btnEnviar:hover {
-    background-color: black;
-    color: white;
-}
+footer {
 
-.btnBorrar:hover {
-    background-color: black;
-    color: white;
+    .gridPadre {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 5px 5px 5px;
+        row-gap: 35px;
+        column-gap: 10px;
+        width: 80px;
+    
+        .tarjetas {
+            width: 30px;
+            height: 30px;
+            justify-content: space-evenly;
+            margin: 5px;
+        }
+    }
+    
+        .titulo {
+            text-transform: uppercase;
+        }
+        
+        .email {
+            width: 12px;
+            height: 12px;
+            margin-right: 5px;
+        }
+        
+        .ubicacion {
+            width: 12px;
+            height: 12px;
+            margin-right: 5px;
+        }
+    
+    .btnSubs {
+        border-color: black;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .btnSubs:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    }
+
 }
