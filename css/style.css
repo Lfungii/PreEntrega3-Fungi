@@ -3,9 +3,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 header .carritoVentas {
   width: 30px;
@@ -55,6 +52,79 @@ header .logo {
   background-color: white;
   text-align: center;
   margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.productos {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.productos .productos h2 {
+  font-size: 3rem;
+}
+.productos .contenedorProductos {
+  justify-content: center;
+}
+.productos .card {
+  border: none;
+}
+.productos .btnProductos {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+}
+.productos .btnProd {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 350px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.btnProductos:hover {
+  background-color: black;
+  color: white;
+}
+
+.btnProd:hover {
+  background-color: black;
+  color: white;
+}
+
+.finalHeader {
+  border-top: 3px black solid;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.finalHeader .textoSociales {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+.finalHeader .textoInstagram {
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.finalHeader .instagram {
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
