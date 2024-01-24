@@ -225,6 +225,10 @@ main .contenedorNosotros .imgNosotros2 {
   width: 300px;
   height: 400px;
 }
+main .contenedorNosotros .imgCC {
+  width: 300px;
+  height: 400px;
+}
 main .contenedorNosotros p {
   text-align: start;
 }
