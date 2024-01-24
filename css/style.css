@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header .carritoVentas {
+  width: 30px;
+  cursor: pointer;
+}
+header .btnBuscar {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+}
+header .btnIniciarSesion {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+}
+header .iniciarSesion {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 3px black solid;
+  border-radius: 0px;
+  background-color: white;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+header .logo {
+  width: 180px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btnBuscar:hover {
+  background-color: black;
+}
+
+.btnIniciarSesion:hover {
+  background-color: black;
+}
+
+.menuNav {
+  padding: 8px 16px;
+  background-color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
