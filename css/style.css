@@ -127,4 +127,47 @@ header .logo {
   margin-bottom: 15px;
 }
 
+.formulario {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-block: 10px;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-content: center;
+}
+.formulario .btnEnviar {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.formulario .btnBorrar {
+  border-color: black;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.formulario .nombre {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.btnEnviar:hover {
+  background-color: black;
+  color: white;
+}
+
+.btnBorrar:hover {
+  background-color: black;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
